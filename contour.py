@@ -144,10 +144,14 @@ filenames = {
 "na-7+": "./solution_set_na7+.csv"
 }
 
+
+
+lbls = ["k-9", "k-10", "na-7"]
+
 overlap_contour_plot(
 	filenames=filenames, 
-	sigma=1, 
-	labels=[r"K$^{9+}$", r"K$^{10+}$", r"Na$^{7+}$"]
+	sigma=1.5, 
+	labels=lbls
 	)
 
 
